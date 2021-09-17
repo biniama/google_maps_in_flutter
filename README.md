@@ -2,6 +2,24 @@
 
 Google Maps app in Flutter
 
+Implementing a CodeLab Exercise - https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0
+
+### Scripts
+```
+flutter pub add google_maps_flutter
+flutter pub add google_maps_flutter_web
+
+flutter pub add http
+flutter pub add --dev build_runner
+flutter pub run build_runner build --delete-conflicting-outputs
+
+mkdir assets
+cd assets
+curl -o locations.json https://about.google/static/data/locations.json
+
+flutter run
+```
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
